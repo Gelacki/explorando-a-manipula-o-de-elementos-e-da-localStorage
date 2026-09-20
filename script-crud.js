@@ -103,9 +103,9 @@ document.addEventListener("FocoFinalizado", () => {
   }
 });
 
-// const limparFormulario = () => {
-//   textarea.value = "";
-//   formularioTarefa.classList.add("hidden");
-// };
+const limparFormulario = () => {
+  textarea.value = "";
+  formularioTarefa.classList.add("hidden");
+};
 
-// btnCancelar.addEventListener("click", limparFormulario);
+btnCancelar.addEventListener("click", limparFormulario); //btn limpa form
